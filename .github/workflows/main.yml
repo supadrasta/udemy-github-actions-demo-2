@@ -15,4 +15,4 @@ jobs:
       - name: Run Tests
         run: npm test
       - name: GitHub Metadata
-        run: echo "{{toJSON(github)}}"
+        run: echo "${{toJSON(github)}}"
